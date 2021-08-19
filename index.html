@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FCC: Product Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"
+/>
+  </head>
+
+  <body>
+    <header id="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="nav-bar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="" width="250" height="24" class="d-inline-block align-text-top" id="header-img"/>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#works">How It Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+       <section id="hero">
+        <h1 class="judul">HandCrafted,home-made masterpieces</h1>
+        <form action="https://www.freecodecamp.com/email-submit" class="form-email" id="form">
+          <div class="form-group">
+            <input type="email" name="email" id="email" class="form-control" placeholder="Enter email here" aria-describedby="helpId" value="" required/>
+            <p id="helpId" class="text-danger">*Put your email for promotion</p>
+          </div>
+
+          <input type="submit" class="btn btn-dark |link" id="submit" value="Get Started"></input>
+        </form>
+       </section>
+
+        <section id="features">
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+            <div class="desc">
+              <h2>Premium Materials</h2>
+              <p>
+                Our trombones use the shiniest brass which is sourced locally. This
+                will increase the longevity of your purchase.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+            <div class="desc">
+              <h2>Fast Shipping</h2>
+              <p>
+                We make sure you recieve your trombone as soon as we have finished
+                making it. We also provide free returns if you are not satisfied.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+            </div>
+            <div class="desc">
+              <h2>Quality Assurance</h2>
+              <p>
+                For every purchase you make, we will ensure there are no damages or
+                faults and we will check and test the pitch of your instrument.
+              </p>
+            </div>
+          </div>
+          </div>
+        </section>
+
+        <section id="works">
+          <div class="container-works">
+            <iframe
+            id="video"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          </div>
+        </section>
+        <section id="pricing">
+          <div class="row text-center">
+          
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                TENOR TROMBONE
+              </div>
+              <div class="card-body">
+                <h5 class="card-title nodisc">$100</h5>
+                <h2 style="display: inline;">$89</h2>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sit iste ipsam assumenda similique cumque aliquam accusamus veniam et vel cupiditate adipisci asperiores animi, harum quis necessitatibus eum. Inventore, consequatur.</p>
+                <a name="" id="" class="btn btn-warning" href="#" role="button">Buy</a>
+              </div>
+
+              
+            </div>
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                BASS TROMBONE
+              </div>
+              <div class="card-body">
+                <h5 class="card-title nodisc">$200</h5>
+                <h2 style="display: inline;">$189</h2>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quae ducimus nisi officia quis eveniet recusandae sit minima doloremque nemo, ea, suscipit corporis. Obcaecati voluptates ducimus repellendus asperiores natus aspernatur?</p>
+                <a name="" id="" class="btn btn-warning" href="#" role="button">Buy</a>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                VALVE TROMBONE
+              </div>
+              <div class="card-body">
+                <h5 class="card-title nodisc">$250</h5>
+                <h2 style="display: inline;">$239</h2>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, ut quaerat nam ipsam fugit quasi velit consequatur culpa cupiditate sit?</p>
+                <a name="" id="" class="btn btn-warning" href="#" role="button">Buy</a>
+              </div>
+            </div>
+          </div>
+          
+          </div>
+        </section>
+    </main>
+
+    <footer class="text-end">
+    <div class="container bg-light">
+      <div class="row">
+        <div class="col-lg-9 col-sm-0"></div>
+        <div class="col"><h5>Privacy</h5></div>
+        <div class="col"><h5>Term</h5></div>
+        <div class="col"><h5>Contact</h5></div>
+      </div>
+  
+  
+  
+    <div class="row"><p>Copyright 2021, Bernacle Thrombones</p></div>
+  
+    </div>
+    </footer>
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
